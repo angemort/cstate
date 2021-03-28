@@ -8,10 +8,10 @@ params:
   shortDateFormat: 15:04 — Jan 2
   down: "#e60000"
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: East Coast
+    - name: Passerelle
+      category: Serveurs Principaux
+    - name: Backup Passerelle
+      category: Serveurs Principaux
     - name: API
       description: Les rouages de l'application.
       category: Uncategorized
@@ -40,7 +40,9 @@ params:
     - name: Serveurs Principaux
       description: Les serveurs principaux sont situés ici.
       closed: true
-    - name: East Coast
+      untitled: false
+    - name: Serveurs Clients
+      description: Les serveurs des clients sont situés ici.
     - name: Uncategorized
       untitled: true
   description: Nous surveillons en permanence l'état de nos services et, en cas
