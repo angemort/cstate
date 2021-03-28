@@ -18,9 +18,10 @@ severity: down
 
 > Nous faisons actuellement face à un incident majeur au sein de notre datacentre de Strasbourg, avec un feu déclaré dans le bâtiment SBG2.\
 > Les pompiers sont intervenus immédiatement sur place mais ne sont pas parvenus à contrôler l’incendie de SBG2.\
-> Par mesure de précaution, l’électricité a été coupée sur l’ensemble du site, ce qui impacte tous nos services à SBG1, SBG2, SBG3 et SBG4.\
-> Si votre production est à Strasbourg, nous vous recommandons d’activer votre Plan de Reprise d’Activité.\
-> Toutes nos équipes sont mobilisées aux côtés des pompiers.\
-> Nous vous tiendrons informés à ce sujet dès que nous aurons davantage d’éléments.
+> Par mesure de précaution, l’électricité a été coupée sur l’ensemble du site, ce qui impacte tous nos services à **SBG1**, **SBG2**, **SBG3** et **SBG4**.\
+> \
+> *Si votre production est à Strasbourg, nous vous recommandons d’activer votre Plan de Reprise d’Activité.*\
+> *Toutes nos équipes sont mobilisées aux côtés des pompiers.*\
+> *Nous vous tiendrons informés à ce sujet dès que nous aurons davantage d’éléments.*
 
 Source : <http://travaux.ovh.net/?do=details&id=49484>
