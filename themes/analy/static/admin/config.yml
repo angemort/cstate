@@ -178,52 +178,52 @@ collections:
               - label: 'Format de date long'
                 name: 'dateFormat'
                 widget: 'string'
-                hint: 'Default: January 2, 2006 at 3:04 PM. Hugo formatting docs: https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference'
+                hint: 'Default: January 2, 2006 at 3:04 PM. Hugo formatage docs: https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference'
                 default: 'January 2, 2006 at 3:04 PM'
-              - label: 'Short date format'
+              - label: 'Format de date court'
                 name: 'shortDateFormat'
                 widget: 'string'
-                hint: 'Default: 15:04 — Jan 2. Hugo formatting docs: https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference'
+                hint: 'Default: 15:04 — Jan 2. Hugo formatage docs: https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference'
                 default: '15:04 — Jan 2'
               # Design site title color toggle in v4.0.1
-              - label: 'Site title text color'
-                hint: 'This is irrelevant, if you use a logo in your header. Docs: https://github.com/cstate/cstate/wiki/Customization#site-title-text-color-v401'
+              - label: 'Couleur du titre du site'
+                hint: "Ce n'est pas pertinent si vous utilisez un logo dans votre en-tête.. Docs: https://github.com/cstate/cstate/wiki/Customization#site-title-text-color-v401"
                 name: 'headerTextColor'
                 widget: 'select'
                 default: 'white'
                 options:
-                - { label: "Black", value: "black" }
-                - { label: "White", value: "white" }
+                - { label: "Noir", value: "black" }
+                - { label: "Blanc", value: "white" }
               # Design toggles
-              - label: 'Use large header design'
+              - label: 'Utilisez un en-tête de grande taille'
                 name: 'useLargeHeaderDesign'
                 widget: 'boolean'
-                hint: 'What header design should we use? https://github.com/cstate/cstate/wiki/Customization#changing-header'
+                hint: 'Quel design d'en-tête devons-nous utiliser ? https://github.com/cstate/cstate/wiki/Customization#changing-header'
                 required: false
                 default: false
-              - label: 'Show logo'
+              - label: 'Afficher le logo'
                 name: 'useLogo'
                 widget: 'boolean'
                 required: false
                 default: true
-              - label: 'Disable dark mode'
-                hint: 'If your OS and browser supports prefers-color-scheme and the user opted into a dark mode, the status page will be darker. Some color choices may be overriden.'
+              - label: 'Désactiver le mode sombre'
+                hint: 'Si votre système d'exploitation et votre navigateur prennent en charge prefers-color-scheme et que l'utilisateur a opté pour un mode sombre, la page d'état sera plus sombre. Certains choix de couleurs peuvent être remplacés.'
                 name: 'disableDarkMode'
                 widget: 'boolean'
                 required: false
                 default: false
               - label: 'Logo image'
-                hint: 'Upload your logo here. If the logo option is switched off, this will not show.'
+                hint: 'Téléchargez votre logo ici. Si l'option de logo est désactivée, ceci n'apparaîtra pas.'
                 name: 'logo'
                 widget: 'image'
               # Description
               - label: 'Site description'
-                hint: 'This is the description that is shown on the footer and meta tags.'
+                hint: 'Il s'agit de la description qui figure dans le pied de page et les balises méta..'
                 name: 'description'
                 widget: 'text'
-                default: 'We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.'
+                default: 'Nous surveillons en permanence l'état de nos services et, en cas d'interruption, une note sera publiée ici..'
               # Incidents per page
-              - label: 'Incident posts shown in one page'
+              - label: 'Affichage des messages d'incident sur une seule page'
                 name: 'incidentPostsPerPage'
                 hint: ''
                 widget: 'number'
@@ -232,60 +232,60 @@ collections:
                 max: 100
                 default: 10
               # Incidents history
-              - label: 'Should the incident history be hidden?'
+              - label: "L'historique des incidents doit-il être caché ?"
                 name: 'disableIncidentHistory'
-                hint: 'By disabling the incident history, you also disable the RSS feed. To ensure no incidents are shown, you should delete them after they are resolved. This option overrides any other options that tailor your incident history’s look.'
+                hint: "En désactivant l'historique des incidents, vous désactivez également le flux RSS. Pour vous assurer qu'aucun incident n'est affiché, vous devez les supprimer après leur résolution. Cette option a priorité sur toutes les autres options qui personnalisent l'apparence de l'historique des incidents."
                 widget: 'boolean'
                 default: false
               # Incidents view format
-              - label: 'Should the incident history be sorted by year or month?'
+              - label: "L'historique des incidents doit-il être trié par année ou par mois ?"
                 name: 'incidentHistoryFormat'
-                hint: 'Enabling sorting disables pagination. More: https://github.com/cstate/cstate/wiki/Customization#enable-sorting--archives-by-year-or-month-v40'
+                hint: "L'activation du triage désactive la pagination. Plus d'informations sur: https://github.com/cstate/cstate/wiki/Customization#enable-sorting--archives-by-year-or-month-v40"
                 widget: 'select'
                 options:
-                  - { label: "Show by year", value: "yearly" }
-                  - { label: "Show by month", value: "monthly" }
-                  - { label: "No sorting; enable pagination", value: "none" }
+                  - { label: "Afficher par année", value: "yearly" }
+                  - { label: "Afficher par mois", value: "monthly" }
+                  - { label: "Pas de tri; activer la pagination", value: "none" }
               # Brand color
-              - label: 'Header: always keep brand color the same'
+              - label: 'En-tête : gardez toujours la même couleur de marque'
                 name: 'alwaysKeepBrandColor'
-                hint: 'You may choose whether the brand color should stay unchanged once there are disruptions or outages on the header.'
+                hint: "Vous pouvez choisir si la couleur de la marque doit rester inchangée en cas de perturbation ou de panne de l'en-tête."
                 widget: 'boolean'
                 default: true
               # Colors
-              - label: 'Site HEX color: Brand'
-                hint: 'Use any color type, even rgb() works. We recommend HEX: #123456. Default: #0a0c0f'
+              - label: 'Couleur HEX du site : Marque'
+                hint: "Utilisez n'importe quel type de couleur, même rgb() fonctionne. Nous recommandons HEX : #123456. Par défaut : #0a0c0f"
                 name: 'brand'
                 widget: 'string'
                 default: '#0a0c0f'
-              - label: 'Site HEX color: Operational / OK'
-                hint: 'Use any color type, even rgb() works. We recommend HEX: #123456. Default: #008000'
+              - label: 'Couleur HEX du site : Opérationnel / OK'
+                hint: "Utilisez n'importe quel type de couleur, même rgb() fonctionne. Nous recommandons HEX : #123456. Par défaut : #008000"
                 name: 'ok'
                 widget: 'string'
                 default: '#008000'
-              - label: 'Site HEX color: Disrupted'
-                hint: 'Use any color type, even rgb() works. We recommend HEX: #123456. Default: #cc4400'
+              - label: 'Couleur HEX du site : Perturbé'
+                hint: "Utilisez n'importe quel type de couleur, même rgb() fonctionne. Nous recommandons HEX: #123456. Par défaut : #cc4400"
                 name: 'disrupted'
                 widget: 'string'
                 default: '#cc4400'
-              - label: 'Site HEX color: Down / Offline / Major'
-                hint: 'Use any color type, even rgb() works. We recommend HEX: #123456. Default: #e60000'
+              - label: 'Couleur HEX du site : Down / Offline / Major'
+                hint: "Utilisez n'importe quel type de couleur, même rgb() fonctionne. Nous recommandons HEX: #123456. Par défaut : #e60000"
                 name: 'down'
                 widget: 'string'
                 default: '#e60000'
-              - label: 'Site HEX color: Notice'
-                hint: 'Use any color type, even rgb() works. We recommend HEX: #123456. Default: #24478f'
+              - label: 'Couleur HEX du site : Remarque.'
+                hint: "Utilisez n'importe quel type de couleur, même rgb() fonctionne. Nous recommandons HEX: #123456. Par défaut : #24478f"
                 name: 'notice'
                 widget: 'string'
                 default: '#24478f'
               # Google Analytics
-              - label: 'Google Analytics tracking code'
-                hint: 'By default, cState does not use Google Analytics. If you choose to use it, you may change the placeholder code below to your own and thereby enable the tracking service. If you set the value back to UA-00000000-1, the code will once again be removed.'
+              - label: 'Code de suivi Google Analytics'
+                hint: 'Par défaut, cState n'utilise pas Google Analytics. Si vous choisissez de l'utiliser, vous pouvez remplacer le code ci-dessous par le vôtre et activer ainsi le service de suivi. Si vous remettez la valeur à UA-00000000-1, le code sera à nouveau supprimé.'
                 name: 'googleAnalytics'
                 widget: 'string'
                 default: 'UA-00000000-1'
               # Enable Custom HTML
-              - label: 'Enable custom HTML'
+              - label: 'Activer le HTML personnalisé'
                 name: 'enableCustomHTML'
                 widget: 'boolean'
                 default: 'false'
@@ -293,7 +293,7 @@ collections:
           - label: 'theme'
             name: 'theme'
             widget: 'hidden'
-            default: 'cstate'
+            default: 'analy'
           - label: 'preserveTaxonomyNames'
             name: 'preserveTaxonomyNames'
             widget: 'hidden'
