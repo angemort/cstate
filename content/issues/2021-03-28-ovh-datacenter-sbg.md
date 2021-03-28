@@ -2,13 +2,16 @@
 section: issue
 title: OVH -  Datacenter SBG
 date: 2021-03-10T12:31:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 resolvedWhen: 2021-03-28T22:39:48.229Z
 affected:
-  - OVH-SBG
   - OVH
+  - OVH-SBG1
+  - OVH-SBG2
+  - OVH-SBG3
+  - OVH-SBG4
 severity: down
 ---
 **Message de OVH :**
