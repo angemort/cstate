@@ -32,7 +32,7 @@ collections:
       - label: 'Problèmes résolus'
         field: resolved
         pattern: true
-      - label: 'Messages d'information'
+      - label: "Messages d'information"
         field: informational
         pattern: true
       - label: Drafts
@@ -107,7 +107,7 @@ collections:
         fields:
           # MAIN
           - label: 'Titre du Site'
-            hint: 'Comment s'appelle votre page d'état ? Elle s'affiche dans la barre du navigateur et dans les méta.'
+            hint: "Comment s'appelle votre page d'état ? Elle s'affiche dans la barre du navigateur et dans les méta."
             name: 'title'
             widget: 'string'
           - label: 'Créez de futurs articles'
@@ -116,7 +116,7 @@ collections:
             hint: 'Les articles dont la date de publication est à venir doivent-ils être construits ? Utile pour partager une maintenance à venir, etc.'
             required: false
             default: true
-          - label: 'Langue d'affichage du site'
+          - label: "Langue d'affichage du site"
             hint: 'Docs: https://github.com/cstate/cstate/wiki/Translations#available-translations'
             name: 'defaultContentLanguage'
             widget: 'select'
@@ -138,7 +138,7 @@ collections:
           - label: 'URL de base / Nom d'hôte'
             name: 'baseURL'
             widget: 'string'
-            hint: 'Où le site est-il hébergé ? Quel est le nom d'hôte ou le chemin vers la racine ? Le slash force les liens relatifs mais peut ne pas fonctionner dans toutes les configurations.'
+            hint: "Où le site est-il hébergé ? Quel est le nom d'hôte ou le chemin vers la racine ? Le slash force les liens relatifs mais peut ne pas fonctionner dans toutes les configurations."
             default: '/'
           # PARAMS
           - label: "Params"
@@ -198,7 +198,7 @@ collections:
               - label: 'Utilisez un en-tête de grande taille'
                 name: 'useLargeHeaderDesign'
                 widget: 'boolean'
-                hint: 'Quel design d'en-tête devons-nous utiliser ? https://github.com/cstate/cstate/wiki/Customization#changing-header'
+                hint: "Quel design d'en-tête devons-nous utiliser ? https://github.com/cstate/cstate/wiki/Customization#changing-header"
                 required: false
                 default: false
               - label: 'Afficher le logo'
@@ -207,23 +207,23 @@ collections:
                 required: false
                 default: true
               - label: 'Désactiver le mode sombre'
-                hint: 'Si votre système d'exploitation et votre navigateur prennent en charge prefers-color-scheme et que l'utilisateur a opté pour un mode sombre, la page d'état sera plus sombre. Certains choix de couleurs peuvent être remplacés.'
+                hint: "Si votre système d'exploitation et votre navigateur prennent en charge prefers-color-scheme et que l'utilisateur a opté pour un mode sombre, la page d'état sera plus sombre. Certains choix de couleurs peuvent être remplacés."
                 name: 'disableDarkMode'
                 widget: 'boolean'
                 required: false
                 default: false
               - label: 'Logo image'
-                hint: 'Téléchargez votre logo ici. Si l'option de logo est désactivée, ceci n'apparaîtra pas.'
+                hint: "Téléchargez votre logo ici. Si l'option de logo est désactivée, ceci n'apparaîtra pas."
                 name: 'logo'
                 widget: 'image'
               # Description
               - label: 'Site description'
-                hint: 'Il s'agit de la description qui figure dans le pied de page et les balises méta..'
+                hint: "Il s'agit de la description qui figure dans le pied de page et les balises méta.."
                 name: 'description'
                 widget: 'text'
-                default: 'Nous surveillons en permanence l'état de nos services et, en cas d'interruption, une note sera publiée ici..'
+                default: "Nous surveillons en permanence l'état de nos services et, en cas d'interruption, une note sera publiée ici.."
               # Incidents per page
-              - label: 'Affichage des messages d'incident sur une seule page'
+              - label: "Affichage des messages d'incident sur une seule page"
                 name: 'incidentPostsPerPage'
                 hint: ''
                 widget: 'number'
