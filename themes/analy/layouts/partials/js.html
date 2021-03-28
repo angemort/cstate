@@ -106,7 +106,7 @@ window.addEventListener("scroll", function() {
   logo.classList.add('header__logo--small');
   // if user is at top of screen and has the small class, then remove it
   var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
-  if (scrollTop >= 0 && scrollTop <= 100) {
+  if (scrollTop >= 0 && scrollTop <= 10) {
     if (logo.classList.contains('header__logo--small')) {
       logo.classList.remove('header__logo--small');
     }
