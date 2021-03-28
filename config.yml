@@ -43,7 +43,7 @@ params:
   description: Nous surveillons en permanence l'état de nos services et, en cas
     d'interruption, une note sera publiée ici.
   enableCustomHTML: true
-  useLargeHeaderDesign: false
+  useLargeHeaderDesign: true
 theme: analy
 preserveTaxonomyNames: true
 taxonomies:
