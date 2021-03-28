@@ -9,9 +9,9 @@ params:
   down: "#e60000"
   systems:
     - name: Gateway
-      category: North Coast
+      category: Serveurs Clients
     - name: Backup Gateway
-      category: East Coast
+      category: Serveurs Clients
     - name: API
       description: Les rouages de l'application.
       category: Uncategorized
@@ -37,7 +37,7 @@ params:
     - name: Serveurs Principaux
       description: Les serveurs principaux sont situés ici.
       closed: true
-    - name: East Coast
+    - name: Serveurs Clients
     - name: Uncategorized
       untitled: true
   description: Nous surveillons en permanence l'état de nos services et, en cas
