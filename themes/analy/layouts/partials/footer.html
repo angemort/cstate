@@ -5,7 +5,7 @@
 <div class="footer">
   <div class="contain">
     <p>{{ .Site.Params.description | markdownify }}</p>
-    <p class="backToTop float-right"><a href="#">{{ T "backToTop" }}</a></p>
+    <p class="backToTop float-right"><a href="#" onclick="window.scroll({top: 0, left: 0, behavior: 'smooth'});return false;">{{ T "backToTop" }}</a></p>
     <!-- Please keep this one around to help cState grow <3 -->
     <small class="footer__copyright faded"><strong class="bold">&copy; {{ now.Year }} <a href="https://analy.fr" rel="external">Analy</a></strong> {{ T "poweredBy" }} <a href="https://github.com/cstate/cstate" rel="external nofollow"><b>cState</b></a></small>
 
