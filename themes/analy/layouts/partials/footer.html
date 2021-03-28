@@ -11,7 +11,7 @@
     <p>{{ .Site.Params.description | markdownify }}</p>
 
     <!-- Please keep this one around to help cState grow <3 -->
-    <small class="footer__copyright faded"><strong class="bold">&copy; {{ now.Year }} <a href="www.analy.fr">Analy</a></strong> {{ T "poweredBy" }} <a href="https://github.com/cstate/cstate"><b>cState</b></a></small>
+    <small class="footer__copyright faded"><strong class="bold">&copy; {{ now.Year }} <a href="https://analy.fr" rel="external">Analy</a></strong> {{ T "poweredBy" }} <a href="https://github.com/cstate/cstate" rel="external nofollow"><b>cState</b></a></small>
 
     {{ if not .Site.Params.disableIncidentHistory }}
       <hr>
