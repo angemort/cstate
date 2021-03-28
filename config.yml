@@ -4,7 +4,7 @@ defaultContentLanguage: fr
 languageCode: fr
 baseURL: https://srv-analy.fr/
 params:
-  disableDarkMode: true
+  disableDarkMode: false
   shortDateFormat: 15:04 — Jan 2
   down: "#e60000"
   systems:
@@ -22,7 +22,7 @@ params:
   dateFormat: January 2, 2006 at 3:04 PM
   brand: "#0a0c0f"
   headerTextColor: white
-  logo: https://analy.fr/assets/images/logo_footer.png
+  logo: /img/analy_web_white_10241.png
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
   alwaysKeepBrandColor: true
