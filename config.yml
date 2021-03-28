@@ -4,7 +4,7 @@ defaultContentLanguage: fr
 languageCode: fr
 baseURL: https://srv-analy.fr/
 params:
-  disableDarkMode: false
+  disableDarkMode: true
   shortDateFormat: 15:04 — Jan 2
   down: "#e60000"
   systems:
