@@ -19,7 +19,7 @@ params:
       description: Il s'agit du service responsable de la diffusion des images, du son
         et de la vidéo. Il dépend de notre CDN.
       category: Uncategorized
-  dateFormat: January 2, 2006 at 3:04 PM
+  dateFormat: 02 Jan 06 15:04 MST
   brand: "#0a0c0f"
   headerTextColor: white
   logo: /img/analy_web_white_10241.png
