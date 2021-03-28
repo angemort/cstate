@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Srv-Analy Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -64,7 +64,7 @@ buildFuture: true
 #
 # See:  https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 # Also: https://www.w3schools.com/tags/ref_language_codes.asp
-languageCode: en
+languageCode: fr
 
 # What translation file should cState use?
 # You can also define whether missing
@@ -90,7 +90,7 @@ defaultContentLanguage: en
 # localhost should automatically work.
 #
 # Example: https://status.example.com/
-baseURL: https://cstate.mnts.lt
+baseURL: https://srv-analy.fr/
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -121,8 +121,8 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
+    - name: Serveurs Principaux
+      description: Les serveurs principaux sont situés ici.
       closed: true
     - name: East Coast      
     - name: Uncategorized
@@ -139,10 +139,10 @@ params:
     - name: Backup Gateway
       category: East Coast
     - name: API
-      description: The guts of the application.
+      description: Les rouages de l'application.
       category: Uncategorized
     - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+      description: Il s'agit du service responsable de la diffusion des images, du son et de la vidéo. Il dépend de notre CDN.
       category: Uncategorized
 
   # What date format to use?
@@ -197,7 +197,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  disableDarkMode: false
+  disableDarkMode: true
 
   # Should we show the logo or the title
   # of the status page?
@@ -220,7 +220,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: Nous surveillons en permanence l'état de nos services et, en cas d'interruption, une note sera publiée ici.
 
   # Tabs on homepage
   # Uncomment to enable.
