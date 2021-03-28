@@ -135,7 +135,7 @@ collections:
             name: 'languageCode'
             widget: 'string'
             default: 'fr'
-          - label: 'URL de base / Nom d'hôte'
+          - label: "URL de base / Nom d'hôte"
             name: 'baseURL'
             widget: 'string'
             hint: "Où le site est-il hébergé ? Quel est le nom d'hôte ou le chemin vers la racine ? Le slash force les liens relatifs mais peut ne pas fonctionner dans toutes les configurations."
