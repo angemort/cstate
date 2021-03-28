@@ -25,6 +25,9 @@ params:
   logo: /img/analy_web_white_10241.png
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
+  customTabs:
+    - name: Monitoring
+      link: https://stats.uptimerobot.com/4G0vVFJKoG
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
   useLogo: true
