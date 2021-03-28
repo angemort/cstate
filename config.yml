@@ -25,6 +25,9 @@ params:
   logo: logo.png
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
+  customTabs:
+    - name: Analy.fr
+      link: www.analy.fr
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
   useLogo: true
