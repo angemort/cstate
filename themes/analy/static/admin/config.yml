@@ -167,7 +167,7 @@ collections:
                 - {label: "Le nom de cette catégorie doit-il être affiché ? Si vous voulez créer l'apparence d'une catégorie non classée, activez cette option.", name: "untitled", widget: "boolean", required: false}
               # Tabs
               - label: "Tabs"
-                hint: 'Vous pouvez ajouter des onglets supplémentaires sous le résumé de la page d'accueil principale, par exemple, vers des sites externes, des services de surveillance, comme le montre l'exemple ci-dessous. Essayez Uptime Robot !'
+                hint: "Vous pouvez ajouter des onglets supplémentaires sous le résumé de la page d'accueil principale, par exemple, vers des sites externes, des services de surveillance, comme le montre l'exemple ci-dessous. Essayez Uptime Robot !"
                 name: "customTabs"
                 widget: "list"
                 allow_add: true
@@ -280,7 +280,7 @@ collections:
                 default: '#24478f'
               # Google Analytics
               - label: 'Code de suivi Google Analytics'
-                hint: 'Par défaut, cState n'utilise pas Google Analytics. Si vous choisissez de l'utiliser, vous pouvez remplacer le code ci-dessous par le vôtre et activer ainsi le service de suivi. Si vous remettez la valeur à UA-00000000-1, le code sera à nouveau supprimé.'
+                hint: "Par défaut, cState n'utilise pas Google Analytics. Si vous choisissez de l'utiliser, vous pouvez remplacer le code ci-dessous par le vôtre et activer ainsi le service de suivi. Si vous remettez la valeur à UA-00000000-1, le code sera à nouveau supprimé."
                 name: 'googleAnalytics'
                 widget: 'string'
                 default: 'UA-00000000-1'
