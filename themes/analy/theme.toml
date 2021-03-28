@@ -1,0 +1,11 @@
+name = "Analy"
+license = "MIT"
+licenselink = "https://github.com/angemort/cstate/cstate/master/LICENSE.md"
+description = "Page d'état ultra rapide, rétrocompatible (IE8+), petite et simple. Compatible avec Netlify et GitHub Pages."
+homepage = "https://github.com/angemort/cstate"
+tags = ['hugo', 'netlify', 'status', 'statuspage', 'fast', 'light', 'ie8', 'ie9', 'ie10', 'ie11', 'github', 'github-pages', 'gh-pages', 'serverside', 'serverless', 'no-javascript', 'github-page', 'netlify-cms', 'gh-pages', 'responsive', 'minimal', 'google analytics', 'clean', 'minimalist', 'light', 'product', 'technical', 'widgets', 'products', 'mobile', 'onepage', 'singlepage', 'single page', 'spa']
+min_version = "0.48"
+
+[author]
+  name = "Analy / angemort"
+  homepage = "https://github.com/angemort"
