@@ -4,8 +4,8 @@
 
 {{ if .Site.Params.useLargeHeaderDesign }}
 <div class="header header--large">
-  <div class="contain contain--more center">
-    <a href="{{ .Site.BaseURL }}" class="header__logo">
+  <div class="center">
+    <a href="{{ .Site.BaseURL }}" id="link-logo" class="header__logo">
       {{ if .Site.Params.useLogo }}
         <img src="{{ relURL .Site.Params.logo }}" alt="{{ .Site.Title }}">
           {{ else }}
@@ -17,7 +17,7 @@
 {{ else }}
 <div class="header">
   <div class="contain">
-    <a href="{{ .Site.BaseURL }}" class="header__logo header__logo--small">
+    <a href="{{ .Site.BaseURL }}" id="link-logo" class="header__logo">
       {{ if .Site.Params.useLogo }}
         <img src="{{ relURL .Site.Params.logo }}" alt="{{ .Site.Title }}">
           {{ else }}

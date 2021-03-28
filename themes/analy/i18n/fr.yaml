@@ -43,7 +43,7 @@
 - id: lastChecked
   translation: Dernière vérification il y a # instead of someTimeAgo
 - id: justNow
-  translation: quelques secondes
+  translation: un instant
 #- id: someTimeAgo
 #  translation: # Unable to translate
 

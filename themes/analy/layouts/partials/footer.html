@@ -4,14 +4,14 @@
 
 <div class="footer">
   <div class="contain">
-    <p><strong class="bold">&copy; {{ .Site.Title }}, {{ now.Year }}</strong>
+    <p>
        &nbsp; • &nbsp; <a href="#">{{ T "backToTop" }}</a>
     </p>
 
     <p>{{ .Site.Params.description | markdownify }}</p>
 
     <!-- Please keep this one around to help cState grow <3 -->
-    <small class="footer__copyright faded">{{ T "poweredBy" }} <a href="https://github.com/cstate/cstate"><b>cState</b></a></small>
+    <small class="footer__copyright faded"><strong class="bold">&copy; {{ now.Year }} <a href="www.analy.fr">Analy</a></strong> {{ T "poweredBy" }} <a href="https://github.com/cstate/cstate"><b>cState</b></a></small>
 
     {{ if not .Site.Params.disableIncidentHistory }}
       <hr>

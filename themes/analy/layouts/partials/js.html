@@ -95,6 +95,21 @@
   }, 5000)
 </script>
 
+<!-- Analy Custom -->
+<script type="text/javascript">
+// get logo
+var logo = document.getElementById('link-logo');
+
+// listen for scroll
+window.addEventListener("scroll", function() {
+  // add small size class
+  logo.classList.add('header__logo--small');
+  // if user is at top of screen and has the small class, then remove it
+  if (window.scrollTop == 0 && logo.classList.contains('header__logo--small')) {
+        logo.classList.remove('header__logo--small');
+    }        
+});
+</script>
 
 {{ if ne .Site.Params.googleAnalytics "UA-00000000-1" }}
   <!-- Global site tag (gtag.js) - Google Analytics -->
