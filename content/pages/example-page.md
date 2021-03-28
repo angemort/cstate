@@ -1,6 +1,7 @@
 ---
 title: Example Page
-description: This is an example page that demonstrates the capabilities of a Markdown page in cState.
+description: Il s'agit d'une page d'exemple qui démontre les capacités d'une
+  page Markdown dans cState.
 ---
 
 Title here!
