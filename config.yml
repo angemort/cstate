@@ -78,7 +78,7 @@ languageCode: fr
 # than English! When tested with Lithuanian,
 # it would add unnecesary placeholders to
 # values that were intentionally empty.
-defaultContentLanguage: en
+defaultContentLanguage: fr
 
 # What is the hostname or path to the root?
 # Where is the site hosted?
@@ -310,7 +310,7 @@ params:
 # These options affect the core of cState.
 # Please do not change them if you do not
 # know what you are doing.
-theme: cstate
+theme: analy
 
 preserveTaxonomyNames: true
 
