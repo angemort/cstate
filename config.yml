@@ -48,15 +48,17 @@ params:
       untitled: true
     - name: Serveurs de Sauvegarde
       description: Les serveurs de sauvegarde principaux sont situés ici.
-      closed: false
+      closed: true
     - name: Sites Vitrine
-      closed: false
+      closed: true
       description: Les sites vitrine principaux sont situés ici.
     - description: Les Applis principales sont situées ici.
       name: Applications Web
+      closed: true
     - name: Serveurs APIs
       description: Les Serveurs APIs principaux sont situées ici.
       untitled: false
+      closed: true
   description: Nous surveillons en permanence l'état de nos services et, en cas
     d'interruption, une note sera publiée ici.
   enableCustomHTML: true
