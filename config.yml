@@ -48,7 +48,7 @@ params:
       untitled: true
     - name: Serveurs de Sauvegarde
       description: Les serveurs de sauvegarde principaux sont situés ici.
-      closed: true
+      closed: false
     - name: Sites Vitrine
       closed: false
       description: Les sites vitrine principaux sont situés ici.
