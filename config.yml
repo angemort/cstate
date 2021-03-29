@@ -9,16 +9,23 @@ params:
   down: "#e60000"
   systems:
     - name: Analy.fr
-      category: Serveurs Analy
-    - name: Backup Gateway
-      category: Serveurs Analy
-    - name: API WebMail
-      description: ""
-      category: Serveurs Analy
-    - name: Media Proxy
-      description: Il s'agit du service responsable de la diffusion des images, du son
-        et de la vidéo dépendent de notre CDN.
       category: Uncategorized
+    - name: Mail.Analy.fr
+      category: Uncategorized
+    - name: "EDS - API "
+      description: ""
+      category: Serveurs APIs
+    - name: AHExpertises.fr
+      description: ""
+      category: Sites Vitrine
+    - name: MonEspace - AHExpertises.fr
+      category: Applications Web
+    - name: CG Immo - ChateauDeFeissons.fr
+      category: Sites Vitrine
+    - name: Brun-Invest.net
+      category: Sites Vitrine
+    - name: MetsDelys.com
+      category: Sites Vitrine
   dateFormat: 02 Jan 06 15:04 MST
   brand: "#0a0c0f"
   headerTextColor: white
@@ -37,11 +44,16 @@ params:
   disableIncidentHistory: false
   ok: "#008000"
   categories:
-    - name: Serveurs Analy
-      description: Les serveurs principaux sont situés ici.
+    - name: Serveurs de Sauvegarde
+      description: Les serveurs de sauvegarde principaux sont situés ici.
       closed: true
-    - name: Serveurs Clients
+    - name: Sites Vitrine
       closed: false
+      description: Les sites vitrine principaux sont situés ici.
+    - description: Les Applis principales sont situées ici.
+      name: Applications Web
+    - name: Serveurs APIs
+      description: Les Serveurs APIs principaux sont situées ici.
     - name: Uncategorized
       untitled: true
   description: Nous surveillons en permanence l'état de nos services et, en cas
