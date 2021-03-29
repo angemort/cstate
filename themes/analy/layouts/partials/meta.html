@@ -176,12 +176,18 @@
       height: auto;
       width: 320px;
       transition: width 0.5s linear 0.2s;
+      -webkit-transition: width 0.5s linear 0.2s;
+      -moz-transition: width 0.5s linear 0.2s;
+      -o-transition: width 0.5s linear 0.2s;
     }
 
     .header__logo--small img {
       height: auto;
       width: 160px;
       transition: width 0.5s linear 0.2s;
+      -webkit-transition: width 0.5s linear 0.2s;
+      -moz-transition: width 0.5s linear 0.2s;
+      -o-transition: width 0.5s linear 0.2s;
     }
 
     .header--large { padding: 16px; }
@@ -208,6 +214,7 @@
      */
 
     .summary {
+      margin: -45px auto 0;
       padding: 16px;
       color: #fff;
     }
@@ -282,11 +289,17 @@
       border: 0;
       padding: 12px 18px;
       position: relative;
-      top: 1px;
-      color: #757575;
+      float: right;
+      background-color: #46ab82;
+      color: white;
+      top: 3px;
+      -webkit-transition: background-color 2s ease-out;
+      -moz-transition: background-color 2s ease-out;
+      -o-transition: background-color 2s ease-out;
+      transition: background-color 2s ease-out;
     }
 
-    .tab--other:hover { color: #000; }
+    .tab--other:hover { background-color: black; }
 
     /**
      * Articles
