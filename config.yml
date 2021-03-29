@@ -8,23 +8,26 @@ params:
   shortDateFormat: 15:04 — Jan 2
   down: "#e60000"
   systems:
-    - name: Gateway
-      category: Serveurs Clients
+    - name: Analy.fr
+      category: Serveurs Analy
     - name: Backup Gateway
-      category: Serveurs Clients
-    - name: API
-      description: Les rouages de l'application.
-      category: Uncategorized
+      category: Serveurs Analy
+    - name: API WebMail
+      description: ""
+      category: Serveurs Analy
     - name: Media Proxy
       description: Il s'agit du service responsable de la diffusion des images, du son
-        et de la vidéo. Il dépend de notre CDN.
+        et de la vidéo dépendent de notre CDN.
       category: Uncategorized
-  dateFormat: January 2, 2006 at 3:04 PM
+  dateFormat: 02 Jan 06 15:04 MST
   brand: "#0a0c0f"
   headerTextColor: white
   logo: /img/analy_web_white_10241.png
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
+  customTabs:
+    - name: 📈 Monitoring
+      link: https://stats.uptimerobot.com/4G0vVFJKoG
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
   useLogo: true
@@ -34,10 +37,11 @@ params:
   disableIncidentHistory: false
   ok: "#008000"
   categories:
-    - name: Serveurs Principaux
+    - name: Serveurs Analy
       description: Les serveurs principaux sont situés ici.
       closed: true
     - name: Serveurs Clients
+      closed: false
     - name: Uncategorized
       untitled: true
   description: Nous surveillons en permanence l'état de nos services et, en cas
