@@ -26,7 +26,7 @@ params:
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
   customTabs:
-    - name: Monitoring
+    - name: 📈 Monitoring
       link: https://stats.uptimerobot.com/4G0vVFJKoG
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
