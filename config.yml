@@ -34,7 +34,7 @@ params:
   googleAnalytics: UA-00000000-1
   customTabs:
     - name: 📈 Monitoring
-      link: https://stats.uptimerobot.com/4G0vVFJKoG
+      link: https://status.srv-analy.fr/
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
   useLogo: true
